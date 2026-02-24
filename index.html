@@ -62,7 +62,7 @@
   .container {
     max-width: 680px;
     margin: 0 auto;
-    padding: 0 24px 80px;
+    padding: 0 28px 80px;
     position: relative;
     z-index: 1;
   }
@@ -514,6 +514,17 @@
   }
 
   /* ── ANIMATIONS ── */
+  @media (max-width: 480px) {
+    .container { padding: 0 22px 80px; }
+    .story-block { padding: 22px 20px; }
+    .anchor-card { padding: 20px 18px; }
+    .interactive-zone { padding: 26px 20px; }
+    .verse-block { padding: 18px 20px; }
+    .word-def { padding: 18px 20px; }
+    .highlight-box { padding: 16px 18px; }
+    .question-box { padding: 14px 16px; }
+  }
+
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -683,7 +694,7 @@
     </div>
     <h2>L'histoire de l'horloger</h2>
 
-    <p>Peut-on vraiment <em>réparer le temps</em> ? Non pas une montre — mais une saison de vie que tu crois perdue. Un rêve enterré. Une voix intérieure qui dit : <em>il est trop tard</em>.</p>
+    <p>Peut-on vraiment <em>réparer le temps</em> ? Non pas une montre — mais une période de ta vie que tu crois perdue. Un rêve enterré. Une voix intérieure qui dit : <em>il est trop tard</em>.</p>
 
     <div class="story-block">
       <p>Dans un petit village, vivait un maître horloger. On venait de partout pour lui confier les mécanismes les plus complexes. Un matin, un jeune homme entre dans sa boutique. Dans ses bras, enveloppée dans un chiffon : une horloge de famille, complètement écrasée. Métal tordu, ressorts arrachés, verre pulvérisé. Son grand-père lui avait transmis cette horloge en mourant. Elle représentait tout — l'héritage, la mémoire, l'identité de sa famille.</p>
@@ -813,6 +824,7 @@
     <div class="word-def">
       <span class="term">Hébreu — תִּקְוָה (tiqvah)</span>
       <p>Le mot traduit par « espérance » signifie littéralement <em>corde</em>. À l'origine, il est lié à l'idée de corde ou de fil tendu — même racine que <em>qav</em>, la ligne. L'image est forte : l'espérance est comme un fil auquel on s'accroche, quelque chose de tendu vers l'avenir. Une corde tendue entre ton présent et ta promesse. Elle ne cède pas parce qu'elle n'est pas attachée à tes circonstances — elle est attachée au caractère de Dieu.</p>
+      <p style="margin-top:14px; font-size:16px; color:var(--cream-dim);">Son caractère, c'est : Sa <em>Fidélité</em> — il n'a jamais abandonné ce qu'il a commencé, il accomplit toutes ses promesses. Sa <em>Souveraineté</em> — rien n'échappe à son pouvoir. Sa <em>Miséricorde</em> — il ne juge pas selon nos mérites, il pardonne nos péchés. Son <em>Amour immuable</em> — il ne change pas selon nos humeurs ni nos échecs. Son <em>Éternité</em> — il voit la fin depuis le commencement, il est l'Alpha et l'Oméga.</p>
     </div>
 
     <p>Dieu n'a pas dit <em>peut-être</em>. Il n'a pas dit <em>il est possible que</em>. Il a dit : <em>il y a</em>. Présent. Déclaratif. Sans condition.</p>
@@ -838,14 +850,19 @@
         <p class="verse-ref">— Psaume 139 : 13–14</p>
       </div>
 
-      <p>Si Dieu t'a conçu avec intention, avec précision, peut-il rater ton futur ? Un architecte construit-il quelque chose sans avoir de plan pour l'étage supérieur ?</p>
+      <p>Si Dieu t'a créé à son image, avec amour, peut-il rater ton futur ? Un architecte construit-il un édifice sans avoir de plan pour l'étage supérieur ?</p>
 
       <div class="question-box">
         <span class="q-label">✦ Question à méditer</span>
-        <p>« Si Dieu t'a conçu avec intention, peut-il rater ton futur ? »</p>
+        <p>« Si Dieu t'a créé à son image, avec amour, peut-il rater ton futur ? »</p>
       </div>
 
-      <p style="margin:0; font-size:16px; color: var(--cream-dim);">Tu n'es pas un accident cosmique. Tu es une œuvre signée. Et l'artiste ne jette pas ses œuvres — il les restaure.</p>
+      <p style="margin:0; font-size:16px; color: var(--cream-dim);">Tu n'es pas un accident cosmique. Tu es une œuvre signée. Et l'artiste ne jette pas ses œuvres abîmées — il les restaure.</p>
+
+      <div style="background:rgba(201,168,76,0.05); border-left:2px solid rgba(201,168,76,0.4); border-radius:0 8px 8px 0; padding:18px 20px; margin-top:18px;">
+        <p style="font-size:13px; font-family:'Cinzel',serif; letter-spacing:0.15em; color:var(--gold); margin-bottom:10px; font-style:normal;">ELLEN G. WHITE</p>
+        <p style="font-size:15px; font-style:italic; color:var(--cream-dim); line-height:1.85; margin:0;">« Le fonctionnement du corps humain dépasse notre compréhension. Il y a là un mystère qui déconcerte les plus intelligents. Ce n'est pas le résultat d'un mécanisme qui, une fois en action, poursuit seul son travail, fait battre le pouls et fonctionner l'appareil respiratoire. [...] Le cœur, le pouls, chacun des nerfs de l'organisme, chaque muscle est maintenu en activité par la puissance d'un Dieu toujours présent. »</p>
+      </div>
     </div>
 
     <!-- ANCRE 2 -->
@@ -859,6 +876,27 @@
       </div>
 
       <p>Paul n'a pas dit que toutes les choses sont bonnes. Il a dit qu'elles <em>concourent</em> au bien. La trahison n'est pas bonne. La maladie n'est pas bonne. La perte n'est pas bonne. Mais Dieu est tellement souverain qu'il peut prendre ce qui est mauvais et le faire travailler pour ce qui est bon.</p>
+
+      <div class="verse-block">
+        <p>« Vous aviez médité de me faire du mal : Dieu l'a changé en bien, pour accomplir ce qui arrive aujourd'hui, pour sauver la vie à un peuple nombreux. »</p>
+        <p class="verse-ref">— Genèse 50 : 20 (Louis Segond)</p>
+      </div>
+      <p style="font-size:15px; color:var(--cream-dim); font-style:italic; margin-bottom:20px;">C'est Joseph qui parle à ses frères. Ils l'avaient vendu par jalousie, mais Dieu a utilisé cette injustice pour l'élever en Égypte et sauver sa famille de la famine.</p>
+
+      <div class="verse-block">
+        <p>« Quand l'Éternel approuve les voies d'un homme, Il dispose favorablement à son égard même ses ennemis. »</p>
+        <p class="verse-ref">— Proverbes 16 : 7</p>
+      </div>
+
+      <div class="verse-block">
+        <p>« Ce qui m'est arrivé a plutôt contribué aux progrès de l'Évangile. »</p>
+        <p class="verse-ref">— Philippiens 1 : 12</p>
+      </div>
+      <p style="font-size:15px; color:var(--cream-dim); font-style:italic; margin-bottom:20px;">Les chaînes de Paul ont ouvert des portes inattendues.</p>
+
+      <div class="highlight-box" style="margin-bottom:20px;">
+        <p>La Bible montre un principe constant : Dieu ne crée pas le mal, mais Il le domine. Il peut utiliser l'hostilité, la trahison ou la persécution pour produire un résultat plus grand que l'intention de l'ennemi.</p>
+      </div>
 
       <div class="question-box">
         <span class="q-label">✦ Question à méditer</span>
@@ -923,6 +961,220 @@
       <span class="word-promise-label">C'est promis.</span>
     </div>
   </div>
+
+
+  <!-- SECTION CHANT -->
+  <style>
+    .song-section {
+      margin-top: 64px;
+      margin-bottom: 48px;
+    }
+    .audio-player-wrapper {
+      background: var(--navy-light);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 16px;
+      padding: 28px 24px;
+      margin: 24px 0 36px;
+      text-align: center;
+    }
+    .audio-player-title {
+      font-family: 'Cinzel', serif;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .audio-song-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-style: italic;
+      color: var(--cream);
+      margin-bottom: 20px;
+    }
+    audio {
+      width: 100%;
+      max-width: 400px;
+      outline: none;
+      border-radius: 8px;
+      filter: invert(0.85) sepia(0.3) saturate(1.5) hue-rotate(5deg);
+    }
+    .lyrics-toggle {
+      display: inline-block;
+      margin-top: 18px;
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      color: var(--gold);
+      text-transform: uppercase;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(201,168,76,0.3);
+      padding-bottom: 2px;
+      background: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      transition: color 0.2s;
+    }
+    .lyrics-toggle:hover { color: var(--gold-light); }
+    .lyrics-wrapper {
+      display: none;
+      margin-top: 32px;
+      text-align: left;
+    }
+    .lyrics-wrapper.open { display: block; }
+    .lyrics-part {
+      margin-bottom: 28px;
+    }
+    .lyrics-part-label {
+      font-family: 'Cinzel', serif;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .lyrics-part p {
+      font-family: 'EB Garamond', serif;
+      font-size: 16px;
+      font-style: italic;
+      color: var(--cream-dim);
+      line-height: 2;
+      margin: 0;
+    }
+    .lyrics-part.refrain {
+      background: rgba(201,168,76,0.06);
+      border-left: 2px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 18px;
+    }
+    .lyrics-part.refrain p { color: var(--cream); }
+    .lyrics-part.bridge {
+      background: rgba(30,50,72,0.5);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .lyrics-part.outro {
+      text-align: center;
+      padding: 16px 0;
+    }
+    .lyrics-part.outro p {
+      font-size: 17px;
+      color: var(--gold-light);
+      font-style: italic;
+    }
+  </style>
+
+  <div class="song-section section">
+    <div class="section-header">
+      <span class="section-number">✦</span>
+      <div class="section-line"></div>
+    </div>
+    <h2>Pour finir — un chant pour toi</h2>
+
+    <div class="audio-player-wrapper">
+      <p class="audio-player-title">Écouter</p>
+      <p class="audio-song-name">Il y a de l'espérance</p>
+      <audio controls preload="none">
+        <source src="https://raw.githubusercontent.com/whaustant-tech/Esp-rance/main/chantespe.mp3" type="audio/mpeg">
+        Ton navigateur ne supporte pas la lecture audio.
+      </audio>
+      <br>
+      <button class="lyrics-toggle" onclick="toggleLyrics(this)">Afficher les paroles ↓</button>
+
+      <div class="lyrics-wrapper" id="lyricsBlock">
+
+        <div class="lyrics-part">
+          <span class="lyrics-part-label">Couplet 1</span>
+          <p>Je t'ai regardé quand tous t'ignoraient<br>
+          J'ai compté tes nuits, tes pourquoi je les entendais<br>
+          Tu portais le poids de ce qui est anéanti<br>
+          Convaincu que tout était définitivement fini<br>
+          Mais Moi je voyais autre chose dans tes yeux<br>
+          Je voyais ce chef-d'œuvre que j'avais fait, parfait et audacieux<br>
+          Laisse-Moi te dire quand bien même tu ne veux plus croire<br>
+          Ton histoire n'est pas finie, elle entre dans sa gloire</p>
+        </div>
+
+        <div class="lyrics-part">
+          <span class="lyrics-part-label">Couplet 2</span>
+          <p>J'ai parlé d'avenir au milieu de l'exil<br>
+          Quand Jérusalem n'était plus que cendres et argile<br>
+          Ma voix a traversé les murs de Babylone<br>
+          Pour dire : reviens, je t'attends, mon amour t'environne<br>
+          Je suis Celui qui tient le temps dans Ses mains<br>
+          Et qui trace pour toi de nouveaux chemins<br>
+          Qui transforme les gravats en pierres de fondation<br>
+          Ce que tu appelles une fin, Je l'appelle une invitation</p>
+        </div>
+
+        <div class="lyrics-part refrain">
+          <span class="lyrics-part-label">Refrain</span>
+          <p>Je t'aime, je t'aime d'un amour profond<br>
+          Comme une corde tendue qui résiste à la tempête et tient bon<br>
+          Tu peux tout me donner — tes doutes, tes peurs, tes larmes<br>
+          Je serai ton refuge, le rempart face aux armes<br>
+          Il y a de l'espérance pour ton avenir<br>
+          Ce n'est pas un souhait, c'est Ma parole qui vient l'écrire<br>
+          Accroche-toi à Moi, laisse le reste partir<br>
+          Il y a de l'espérance, c'est promis</p>
+        </div>
+
+        <div class="lyrics-part">
+          <span class="lyrics-part-label">Couplet 3</span>
+          <p>Je t'ai tissé avec soin avant l'aube du monde<br>
+          Ta douleur m'est connue, même la plus profonde<br>
+          Ce que tu crois gâché, perdu ou bien trop tard<br>
+          Devient entre Mes mains le feu d'un nouveau départ<br>
+          Alors lève-toi ce soir, commence à marcher<br>
+          Comme si demain t'appartient déjà<br>
+          Tu n'as pas besoin de tout comprendre pour avancer<br>
+          Il suffit de Me croire, de faire ce premier pas</p>
+        </div>
+
+        <div class="lyrics-part bridge">
+          <span class="lyrics-part-label">Bridge</span>
+          <p>Quand tu ne vois que les débris épars<br>
+          Moi je vois l'horloge qui sonne un nouveau départ<br>
+          Quand tu comptes tes cicatrices dans le noir<br>
+          Moi je compte les aurores que tu vas voir<br>
+          Mon amour ne faiblit pas, il est un don parfait<br>
+          Il ne dépend jamais de tout ce que tu fais<br>
+          Tu n'as pas à mériter ce que Je t'offre ici<br>
+          C'est un trésor scellé, ton futur est à l'abri</p>
+        </div>
+
+        <div class="lyrics-part refrain">
+          <span class="lyrics-part-label">Refrain</span>
+          <p>Je t'aime, je t'aime d'un amour profond<br>
+          Comme une corde tendue qui résiste à la tempête et tient bon<br>
+          Tu peux tout Me donner — tes doutes, tes peurs, tes larmes<br>
+          Je serai ton refuge, le rempart face aux armes<br>
+          Il y a de l'espérance pour ton avenir<br>
+          Ce n'est pas un souhait, c'est Ma parole qui vient l'écrire<br>
+          Accroche-toi à Moi, laisse le reste partir<br>
+          Il y a de l'espérance, c'est promis</p>
+        </div>
+
+        <div class="lyrics-part outro">
+          <span class="lyrics-part-label" style="text-align:center; display:block;">Outro</span>
+          <p>Il y a de l'espérance pour ton avenir…<br>
+          Je t'ai vu. Je t'ai choisi. Je ne change pas d'avis.<br>
+          C'est promis… c'est promis… C'est promis.</p>
+        </div>
+
+      </div><!-- /lyrics-wrapper -->
+    </div><!-- /audio-player-wrapper -->
+  </div><!-- /song-section -->
+
+  <script>
+    function toggleLyrics(btn) {
+      const block = document.getElementById('lyricsBlock');
+      block.classList.toggle('open');
+      btn.textContent = block.classList.contains('open') ? 'Masquer les paroles ↑' : 'Afficher les paroles ↓';
+    }
+  </script>
 
   <!-- FINAL -->
   <div class="final-section section" id="final">
